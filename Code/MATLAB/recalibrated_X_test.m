@@ -25,7 +25,7 @@ for i = 1:length(X_test)
     fieldStrength(i, :) = cmag.FieldAndGradient(Position,CurrentVector)';
 end
 
-save(fullfile(DATA_PATH, 'recalibrated_y_pred.mat'), 'fieldStrength');
+save(fullfile(DATA_PATH, 'mpem_y_pred.mat'), 'fieldStrength');
     
     
 %Position = [0;0;0];
