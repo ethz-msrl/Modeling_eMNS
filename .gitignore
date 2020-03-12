@@ -8,3 +8,6 @@
 # IPython
 profile_default/
 ipython_config.py
+
+# to make sure we don't erronously add the data tarballs
+*.tar.*
